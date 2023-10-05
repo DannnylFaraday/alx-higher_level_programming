@@ -1,47 +1,51 @@
 #!/usr/bin/python3
 def add(a, b):
-    """This is an addition function
+    """My addition function
 
-    Arguments:
-        (a) is the first integer
-        (b) is the second integer
+    Args:
+        a: first integer
+        b: second integer
 
     Returns:
         The return value. a + b
     """
     return (a + b)
-def sub(a, b):
-    """This is a subtractionfunction
 
-    Arguments:
-        (a) is the first integer
-        (b) is the second integer
+
+def sub(a, b):
+    """My subtraction function
+
+    Args:
+        a: first integer
+        b: second integer
 
     Returns:
         The return value. a - b
     """
     return (a - b)
 
-def multi(a, b):
-    """This is a multiplication function
 
-    Arguments:
-        (a) is the first integer
-        (b) is the second integer
+def mul(a, b):
+    """My multiplication function
+
+    Args:
+        a: first integer
+        b: second integer
 
     Returns:
         The return value. a * b
     """
     return (a * b)
 
-def div(a, b):
-    """This is a division function
 
-    Arguments:
-        (a) is the first integer
-        (b) is the second integer
+def div(a, b):
+    """My division function
+
+    Args:
+        a: first integer
+        b: second integer
 
     Returns:
         The return value. a / b
     """
-    return (a / b)
+    return int(a / b)
