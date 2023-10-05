@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    """Returns number of words/Arguments(Could have done this if was JS??)
-"""
+    """Returns number of words/Arguments(Could have done this if was JS??)"""
     import sys
 
     count = len(sys.argv) - 1
